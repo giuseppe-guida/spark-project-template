@@ -31,5 +31,4 @@ object Tubular extends App {
     FootballPlayer("Muller", 45, maybeString, Timestamp.valueOf("2017-12-02 00:00:00"), Some(Timestamp.valueOf("2001-12-02 03:04:00")))
   ).toDS()
   FootballPlayersDS.show()
-
 }
